@@ -29,10 +29,22 @@
 
 - AdventureWorks_Territories:This dimension provides geographic data related to sales.
 
-  ## ETL Process
+## ETL Process
 1.Data Source Integration:
-- Data from three years (2015-2017) were combined using SQL UNION to create the main AdventureWorks_Sale_Data table.
+- Data from three years (2015-2017) was combined using SQL UNION to create the main AdventureWorks_Sale_Data table.
 
 
+2.Data Cleaning:
+- 	Missing data was handled across all dimensions.
+- 	Standardized formats for customer information such as birthdate and income.
+- 	Consistency checks were performed for foreign key constraints, ensuring valid relationships between tables.
+
+  ## ER Diagram for Sales Trend Analysis
+
+  ## Conclusion
+  
+  This star schema design efficiently supports sales trend analysis, enabling querying across multiple dimensions such as products, customers, territories, 
+  and time. The structure ensures easy maintenance, scalability, and high performance for analytical queries.
+  
 
 
