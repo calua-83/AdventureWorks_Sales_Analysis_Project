@@ -9,8 +9,30 @@
 - Primary Table: AdventureWorks_Sale_Data — representing combined sales data for 2015, 2016, and 2017.
 
 ### Star Schema Structure
-1. Fact Tables
+1. I am using Two Fact Tables(AdventureWorks_Sale_Data and AdventureWorks_Returns)
    
 - AdventureWorks_Sale_Data:This fact table contains transactional sales data and links to the dimension tables through foreign keys
 
   ![](https://github.com/calua-83/Sales_Analysis_Project/blob/main/sales_table.png?raw=true)
+
+- AdventureWorks_Returns:This table tracks product returns associated with sales.
+
+ 2. Dimension Tables
+    
+- AdventureWorks_Customers:This dimension provides customer details linked to sales transactions.
+
+- AdventureWorks_Products:This dimension describes products sold in the store.
+
+- AdventureWorks_Product_Subcategories:This dimension categorizes products into subcategories.
+   
+- AdventureWorks_Product_Categories:This dimension classifies products into categories.
+
+- AdventureWorks_Territories:This dimension provides geographic data related to sales.
+
+  ## ETL Process
+1.Data Source Integration:
+- Data from three years (2015-2017) were combined using SQL UNION to create the main AdventureWorks_Sale_Data table.
+
+
+
+
