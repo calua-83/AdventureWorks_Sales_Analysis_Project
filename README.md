@@ -41,7 +41,7 @@
 
   ## ER Diagram for Sales Trend Analysis
 
-![]()
+![](https://github.com/calua-83/Sales_Analysis_Project/blob/main/Sales_Adventure_Works_ER.png)
   
 
   ## Conclusion
