@@ -41,6 +41,9 @@
 
   ## ER Diagram for Sales Trend Analysis
 
+![]()
+  
+
   ## Conclusion
   
   This star schema design efficiently supports sales trend analysis, enabling querying across multiple dimensions such as products, customers, territories, 
