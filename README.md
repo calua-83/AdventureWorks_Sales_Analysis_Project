@@ -9,7 +9,7 @@
 - Primary Table: AdventureWorks_Sale_Data — representing combined sales data for 2015, 2016, and 2017.
 
 ### Star Schema Structure
-1. I am using Two Fact Tables(AdventureWorks_Sale_Data and AdventureWorks_Returns)
+### 1. Two Fact Tables(AdventureWorks_Sale_Data and AdventureWorks_Returns)
    
 - AdventureWorks_Sale_Data:This fact table contains transactional sales data and links to the dimension tables through foreign keys
 
@@ -17,22 +17,35 @@
 
 - AdventureWorks_Returns:This table tracks product returns associated with sales.
 
- 2. Dimension Tables
+  ![](https://github.com/calua-83/Sales_Analysis_Project/blob/main/returns.png?raw=true)
+
+ ### 2. Dimension Tables
     
 - AdventureWorks_Customers:This dimension provides customer details linked to sales transactions.
 
+  ![]()
+  
 - AdventureWorks_Products:This dimension describes products sold in the store.
 
+  ![](https://github.com/calua-83/Sales_Analysis_Project/blob/main/Product_table.png?raw=true)
+  
 - AdventureWorks_Product_Subcategories:This dimension categorizes products into subcategories.
-   
+  
+  ![](https://github.com/calua-83/Sales_Analysis_Project/blob/main/Product_subcategory.png?raw=true)
+    
 - AdventureWorks_Product_Categories:This dimension classifies products into categories.
-
+  
+  ![](https://github.com/calua-83/Sales_Analysis_Project/blob/main/Productcategory%20.png?raw=true)
+  
 - AdventureWorks_Territories:This dimension provides geographic data related to sales.
-
+  
+  ![](https://raw.githubusercontent.com/calua-83/Sales_Analysis_Project/f1dcb05ebab13e06a2c30dbcab19320fd56134b7/Area.png)
+  
 ## ETL Process
 1.Data Source Integration:
 - Data from three years (2015-2017) was combined using SQL UNION to create the main AdventureWorks_Sale_Data table.
 
+![](https://github.com/calua-83/Sales_Analysis_Project/blob/main/ETL.png?raw=true)
 
 2.Data Cleaning:
 - 	Missing data was handled across all dimensions.
