@@ -23,7 +23,7 @@
     
 - AdventureWorks_Customers:This dimension provides customer details linked to sales transactions.
 - 
-  ![](https://raw.githubusercontent.com/calua-83/Sales_Analysis_Project/83f89813988621dd99e7889ca0caddcf66229dab/customer.png)
+  ![](https://github.com/calua-83/Sales_Analysis_Project/blob/main/customers.png)
   
 - AdventureWorks_Products:This dimension describes products sold in the store.
 
